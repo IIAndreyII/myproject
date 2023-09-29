@@ -30,7 +30,7 @@ SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 
 ALLOWED_HOSTS = [
-    'I1andr1I.pythonanywhere.com',
+    '1andr1.pythonanywhere.com',
 ]
 
 INTERNAL_IPS = [
@@ -94,10 +94,10 @@ WSGI_APPLICATION = "my_project.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'I1andr1I$default>',
-        'USER': 'I1andr1I',
+        'NAME': '1andr1$default>',
+        'USER': '1andr1',
         'PASSWORD': os.getenv('MYSQL_PASSWORD'),
-        'HOST': 'I1andr1I.mysql.pythonanywhere-services.com',
+        'HOST': '1andr1.mysql.pythonanywhere-services.com',
         'OPTIONS': {
             'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
             'charset': 'utf8mb4',
